@@ -1,0 +1,11 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+
+spring:
+  application:
+    name: eureka-feign-upload-client
+
+server:
+  port: 8005
