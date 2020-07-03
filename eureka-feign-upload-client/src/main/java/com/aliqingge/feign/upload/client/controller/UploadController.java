@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * @author zhangzhongqing@gogpay.cn
+ * @author Administrator
  * @date 2020/7/2 16:07
  */
 @RestController

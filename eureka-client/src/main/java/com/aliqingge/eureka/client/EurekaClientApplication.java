@@ -31,7 +31,8 @@ public class EurekaClientApplication {
     DiscoveryClient discoveryClient;
 
     @RequestMapping("/hi")
-    public String home(@RequestParam String name) {
+    public String home(@RequestParam String name) throws InterruptedException {
+//        Thread.sleep(5000L);
         List<String> services = discoveryClient.getServices();
         System.out.println("----注册中心的服务信息：" + services);
         return "hi " + name + ",i am from port:" + port;

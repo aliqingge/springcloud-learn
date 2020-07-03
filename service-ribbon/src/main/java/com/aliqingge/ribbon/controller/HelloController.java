@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author zhangzhongqing@gogpay.cn
+ * @author Administrator
  * @date 2020/7/2 10:45
  */
 @RestController

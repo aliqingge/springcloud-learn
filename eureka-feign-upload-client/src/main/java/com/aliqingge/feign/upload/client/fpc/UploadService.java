@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * @author zhangzhongqing@gogpay.cn
+ * @author Administrator
  * @date 2020/7/2 16:05
  */
 @FeignClient(value = "eureka-feign-upload-server", configuration = MultipartSupportConfig.class, url = "http://10.10.10.13:8004")

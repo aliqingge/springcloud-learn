@@ -11,6 +11,7 @@
         <module name="eureka-client" />
         <module name="eureka-feign-upload-client" />
         <module name="eureka-feign-upload-server" />
+        <module name="eureka-ribbon-hystrix" />
         <module name="eureka-server" />
         <module name="serice-feign" />
         <module name="service-ribbon" />
@@ -22,6 +23,7 @@
       <module name="eureka-client" target="1.8" />
       <module name="eureka-feign-upload-client" target="1.8" />
       <module name="eureka-feign-upload-server" target="1.8" />
+      <module name="eureka-ribbon-hystrix" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="serice-feign" target="1.8" />
       <module name="service-ribbon" target="1.8" />

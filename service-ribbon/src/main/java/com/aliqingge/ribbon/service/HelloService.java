@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author zhangzhongqing@gogpay.cn
+ * @author Administrator
  * @date 2020/7/2 10:43
  */
 @Service

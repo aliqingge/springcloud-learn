@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * @author zhangzhongqing@gogpay.cn
+ * @author Administrator
  * @date 2020/7/2 11:39
  */
 @FeignClient(value = "eureka-client")
