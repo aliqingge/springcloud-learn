@@ -1,22 +1,18 @@
-package com.aliqingge.server;
+package com.aliqingge.configclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
- * 配置文件服务端
- *
  * @author Administrator
  */
 @EnableDiscoveryClient
-@EnableConfigServer
 @SpringBootApplication
-public class ConfigServerGitApplication {
+public class ConfigClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigServerGitApplication.class, args);
+        SpringApplication.run(ConfigClientApplication.class, args);
     }
 
 }
