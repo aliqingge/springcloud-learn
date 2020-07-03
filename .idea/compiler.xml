@@ -13,6 +13,7 @@
         <module name="eureka-feign-upload-server" />
         <module name="eureka-ribbon-hystrix" />
         <module name="eureka-server" />
+        <module name="hystrix-dashboard" />
         <module name="serice-feign" />
         <module name="service-ribbon" />
       </profile>
@@ -25,6 +26,7 @@
       <module name="eureka-feign-upload-server" target="1.8" />
       <module name="eureka-ribbon-hystrix" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="serice-feign" target="1.8" />
       <module name="service-ribbon" target="1.8" />
     </bytecodeTargetLevel>
